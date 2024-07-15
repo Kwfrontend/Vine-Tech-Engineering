@@ -1,0 +1,14 @@
+.info-section-container {
+    .info-healine{
+        border-bottom: 2px solid var(--secondary);
+    }
+    
+    .info-container{
+        .info {
+
+        }
+        .info-list-container {
+
+        }
+    }
+}

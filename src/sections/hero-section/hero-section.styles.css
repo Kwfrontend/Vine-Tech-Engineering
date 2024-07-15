@@ -1,0 +1,6 @@
+.hero-section-container {
+    padding-top: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

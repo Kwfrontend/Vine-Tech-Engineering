@@ -1,0 +1,97 @@
+:root {
+    --btn__primary: #242424;
+    --btn__secondary: #E8D5B5;
+  }
+  
+  .btn {
+      pad: 8px 20px;
+      appearance: none;
+      display: inline-block;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background-image: none;
+      border: none;
+      cursor: pointer;
+      line-height: 20px;
+      margin: 0 5px 10px 0;
+      overflow: visible;
+      text-transform: none;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+  }
+  
+  .span {
+    font-size: 16px;
+  }
+  
+  .btn--primary {
+    background-color: var(--btn__primary);
+    color:#fff;
+    border: 2px solid var(--btn__primary);
+  }
+  
+  .btn--secondary {
+    background-color: var(--btn__secondary);
+    color:#fff;
+    border: 3px solid var(--btn__primary);
+  }
+  
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: 2px solid var(--btn__primary);
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--shadow {
+    background-color: var(--btn__primary);
+    color: #fff;
+    border: 1px solid var(--btn__primary);
+    box-shadow: #BABABA 4px 4px 0 0,#BABABA 4px 4px 0 1px;
+    box-sizing: border-box;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+    margin: 0 0;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+    margin: 0 0;
+  }
+  
+  .btn--primary:hover {
+    background: var(--btn__primary);
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--secondary:hover {
+    background: var(--btn__primary);
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--shadow:hover {
+    background-color: var(--btn__secondary) ;
+    color: white;
+    transition: all 0.3s ease-out;
+    border: 2px solid var(--btn__primary);
+    font-weight: 400;
+  }
+  
+  
+  .span {
+      position: relative;
+      z-index: 10;
+  }

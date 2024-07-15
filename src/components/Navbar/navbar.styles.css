@@ -1,0 +1,117 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: absolute;
+    width: 100dvw;
+    z-index: 999;
+    height: 123px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    height: 80px;
+    margin: 0rem 10rem;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 2rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.nav-link:hover{
+    color: var(--secondary);
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+}
+
+
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background:transparent ;
+    border: none;
+    outline: none;
+    color: #242424;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+ @media only screen and (max-width: 1280px ){
+    .logo{
+        margin: 2rem 2rem;
+    }
+ }
+
+
+@media only screen and (max-width: 768px ) {
+    .nav-btn {
+        visibility: visible;
+        opacity: 1;
+        color: var(--primary);
+        margin-right: 5rem;
+    }
+    .nav-container {
+        position: fixed;
+    }
+    .navbar {
+            position: fixed;
+            top: -300vh;
+            left: 0;
+            height: 100%;
+            width: 100dvw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            background-color:   var(--secondary);
+            transition: 1s;
+            z-index: 1000;
+    }
+    .responsive_nav {
+        transform: translateY(300vh);
+        .icon {
+            visibility: hidden;
+        }
+        
+    }
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 645px ) {
+    .logo {
+        width: 150px;
+        height: 90px;
+        margin: 0rem 0rem;
+        top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px ) {
+    .nav-btn {
+        margin-right: 3rem;
+    }
+}
