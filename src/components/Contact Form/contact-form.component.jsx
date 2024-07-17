@@ -46,7 +46,7 @@ const ContactForm= () => {
                 <input className="contact-form-input" type="text"  name='user_address' /><br/>
             <label className="contact-form-label">Message</label><br/>
                 <textarea className="contact-form-input-msg" name='user_message' ></textarea><br/>
-                <Button type="submit">Submit</Button>
+                <Button buttonStyle="" type="submit">Submit</Button>
         </form>
     </div>
 </div>

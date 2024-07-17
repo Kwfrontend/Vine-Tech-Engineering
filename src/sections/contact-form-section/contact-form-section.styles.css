@@ -1,0 +1,30 @@
+.contact-form-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100dvh;
+}
+
+.contact-form-section-headline {
+    width: 60dvw;
+    border-bottom: 2px solid var(--secondary);
+    text-align: center;
+    padding: 32px 0px;
+    margin: 1rem 0rem;
+}
+
+.form-container {
+    margin: 5rem 0rem;
+    width: 60dvw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.form-side-text-container {
+    width: 30dvw;
+    height: 600px;
+    background-color: black;
+}

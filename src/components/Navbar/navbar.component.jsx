@@ -23,7 +23,7 @@ const Navbar = ( ) => {
     return(
         <>
             <div className='nav-container'  >
-                    <Link to={'/'}>
+                    <Link to={'/'} >
                         <VTELogo className='logo'/>
                     </Link>
                 <nav className={mobileNavState ? "responsive_nav navbar" : "navbar"}>

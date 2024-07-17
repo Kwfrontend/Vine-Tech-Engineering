@@ -1,20 +1,21 @@
 .gallery-container {
-    width: 90dvw;
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-template-columns: 200px 200px 200px 200px;
+    width: 60dvw;
+    
 }
 
-/* .img-display-container {
-    height: 100dvh;
-    width: 100dvh;
-    background-color: black;
-} */
+.preview-gallery-container {
+    display: grid;
+    grid-template-columns: 15dvw 15dvw 15dvw 15dvw;
+    width: 60dvw;
+    justify-content: space-between;
+    row-gap: 20px;
+}
 
 .img-container{
-    width: 200px;
-    height: 200px;
+    width: 14dvw;
+    height: 30dvh;
     display: flex;
     align-items: center;
     justify-content: center;

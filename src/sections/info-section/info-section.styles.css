@@ -1,14 +1,40 @@
 .info-section-container {
-    .info-healine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .info-section-headline{
+        width: 60dvw;
+        padding: 2rem 0rem;
         border-bottom: 2px solid var(--secondary);
+        text-align: center;
     }
     
     .info-container{
+        display: flex;
+        flex-direction: column;
+        width: 60dvw;
+        align-items: start;
+        .info-headline{
+            margin: 1.5rem 0rem 1rem 0rem;
+        }
         .info {
 
         }
+        .list-headline{
+            margin-top: 1.5rem;
+        }
+        
         .info-list-container {
-
+            width: 60dvw;
+            height: 200px;
+            display: grid;
+            grid-template-columns: 30dvw 30dvw;
+            padding: 0rem;
+            margin: 2rem 0rem;
+        }
+        .info-section-cta {
+            
         }
     }
 }

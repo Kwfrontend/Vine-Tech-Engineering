@@ -1,12 +1,12 @@
-import React, {useContext, useState} from 'react'
-
-import {Imgs} from '../../data/galleryImages';
+import React, { useState} from 'react'
 
 import "./gallery.styles.css"
 
 
-const Gallery = () => {
+const Gallery = (props) => {
   const [imgState, setImageState] = useState(null)
+  const {Imgs, GalleryType} = props;
+
 
   const openImg = (number) => {
     setImageState(number);
@@ -16,10 +16,8 @@ const Gallery = () => {
     setImageState(null);
   }
 
-  console.log(imgState)
-
   return (
-    <div className={imgState === null ? 'gallery-container' : 'gallery-container img-display-container'}>
+    <div className={GalleryType === "preview" ? "preview-gallery-container" : imgState === null ? 'gallery-container' : 'gallery-container img-display-container'}>
     {Imgs.map((item , idx)=> {
       return (
         <div className="img-container">
@@ -31,11 +29,12 @@ const Gallery = () => {
               openImg(item.number);
               }} 
             key={idx} 
-            className={imgState !== item.number ? "img" : "img enlarge"}
+            className={imgState !== item.number ? "img" : "enlarge"}
             />
         </div>
       );
     })}
+    {/* checkGalleryType === "preview" ? "display-none" :  */}
     <button onClick={closeImg} className={imgState === null ? "close-img-btn" : "close-img-btn enable"}> close</button>
     </div>
   )
