@@ -31,7 +31,9 @@
             width: 15dvw;
         }
         .footer-list-container{
-            padding: 2rem 0rem;
+            height: 240px;
+            margin: 60px 0px 0px 0px;
+            padding: 0;
             span{ 
                 font-size: 24px;
                 font-weight: 500;
@@ -54,7 +56,7 @@
             justify-content: center;
             align-items: center;
             height: 300px;
-            width: 20dvw;
+            width: 30dvw;
             margin-left: 50px;
             
         }
@@ -69,6 +71,7 @@
         color: #fff;
         .footer-bottom-text {
             padding-top: 10px;
+            text-align: center;
             span{
                 color: var(--secondary);
             }
@@ -82,6 +85,76 @@
             background: var(--primary);
         }
     }
+}
+
+@media only screen and (max-width: 1440px ) {
+    .footer-container {
+       .footer-top-container{
+            width: 100dvw;
+       }
+       .footer-bottom-container {
+            width: 100dvw;
+       }
+    }
+}
+
+@media only screen and (max-width: 1280px ) {
+    .footer-container {
+        .footer-top-container{
+            display: flex;
+            .logo {
+                display: none;
+            }
+            .footer-list-container{
+                span{ 
+                    font-size: 22px;
+                }
+                li {
+                    font-size: 16px;
+                    width: 20dvw;
+                }
+            }
+        }
+     }
+}
+
+@media only screen and (max-width: 1024px ) {
+    .footer-container {
+        .footer-top-container{
+            display: flex;
+            justify-content:center;
+            .logo {
+                display: none;
+            }
+            .footer-list-container{
+                /* padding: 0rem 2rem; */
+                span{ 
+                    font-size: 24px;
+                }
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+        .footer-map-container {
+            position: absolute;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .footer-container {
+        .footer-top-container{
+            .logo {
+                display: none;
+            }
+            .footer-list-container{
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+     }
 }
 
 

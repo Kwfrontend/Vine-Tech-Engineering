@@ -76,3 +76,46 @@
 .display__none {
     display: none;
 }
+
+@media only screen and (max-width: 768px ) {
+    .contact-form-container {
+        height: 550px;
+        width: 450px;
+        .contact-form-text-container{
+            .contact-form-header{
+                font-size: 30px;
+            }
+        }
+    }
+    
+    .contact-form{
+        .contact-form-label{
+            font-size: 12px;
+        }
+        .contact-form-input{
+            color: white;
+            width: 300px;
+            height: 25px;
+            
+        }
+        .input-sml{
+            color: white;
+            width: 148px;
+            height: 25px;
+            padding-left: 0px;
+            margin-right: 10px;
+        }
+        .contact-form-input-msg{
+            color: white;
+            width: 300px;
+            height: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px ) {
+    .contact-form-container {
+        height: 550px;
+        width: 100dvw;
+    }
+}

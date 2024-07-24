@@ -28,7 +28,7 @@ const Footer = () => {
             <li>5 Linton Street, Unit 4, Plankenpark, Stellenbosch, 7600</li>
           </ul>
           <div className="footer-map-container">
-            <GoogleApiWrapper />
+            <GoogleApiWrapper  className='map'/>
           </div>
         </div>
         <div className="footer-bottom-container">

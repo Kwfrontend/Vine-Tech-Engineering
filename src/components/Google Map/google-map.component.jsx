@@ -10,7 +10,7 @@ export class GoogleMap extends Component {
     <div className='map-container'>
       <Map
       google = {this.props.google}
-      style = {{width:'20dvw', height: '275px'}}
+      style = {{width:'300px', height: '275px'}}
       className='mapContainerWrapper'
       zoom= {14}
       initialCenter = {
