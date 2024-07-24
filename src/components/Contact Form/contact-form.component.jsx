@@ -35,18 +35,18 @@ const ContactForm= () => {
         </div>
         <form action="" className="contact-form" ref={form} onSubmit={sendEmail}>
             <label className="contact-form-label">Full Name</label><br/>
-                <input className="contact-form-input" type="text"  name='user_fullname' required/> <br/>
+                <input className="contact-form-input" type="text"  name={'user_fullname'} required/> <br/>
         <div className="contact-form-label-sml-container">
             <label className="contact-form-label">Phone</label>
             <label className="contact-form-label">Email</label><br/>
         </div>
-                <input className="contact-form-input input-sml " type="tel"  name='user_phone' />
-                <input className="contact-form-input input-sml " type="email"  name='user_email' required /><br/>
+                <input className="contact-form-input input-sml " type="tel"  name={'user_phone'} />
+                <input className="contact-form-input input-sml " type="email"  name={'user_email'} required /><br/>
             <label className="contact-form-label">Address</label><br/>
-                <input className="contact-form-input" type="text"  name='user_address' /><br/>
+                <input className="contact-form-input" type="text"  name={'user_address'} /><br/>
             <label className="contact-form-label">Message</label><br/>
-                <textarea className="contact-form-input-msg" name='user_message' ></textarea><br/>
-                <Button buttonStyle="" type="submit">Submit</Button>
+                <textarea className="contact-form-input-msg" name={'user_message'} ></textarea><br/>
+                <Button buttonStyle="btn--secondary" type="submit">Submit</Button>
         </form>
     </div>
 </div>

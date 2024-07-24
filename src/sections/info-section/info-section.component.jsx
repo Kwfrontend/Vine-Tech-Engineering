@@ -28,7 +28,7 @@ const InfoSection = () => {
           <li>7. Servicing of pumps</li>
           <li>14. General Stainless Steel engineering and maintenance</li>
         </ul>
-        <Button className='info-section-cta' >Get in Touch</Button>
+        <Button href='#contact' className='info-section-cta' buttonStyle='btn--shadow' >Get in Touch</Button>
       </div>
     </div>
   )

@@ -1,13 +1,12 @@
 .faq-section-container {
     height: 50dvh;
-    background-color: #FAFAFA;
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: var(--primary);
     .faq-section-headline{
         text-align: center;
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 48px;
+        font-weight: bold;
         margin-bottom: 5rem;
     }
 }

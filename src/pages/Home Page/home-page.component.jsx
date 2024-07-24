@@ -17,7 +17,7 @@ const HomePage = () => {
       <GalleryPreviewSection/>
       <FaqSection />
       <ContactFormSection/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

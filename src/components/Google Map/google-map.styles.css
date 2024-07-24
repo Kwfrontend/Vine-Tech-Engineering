@@ -1,0 +1,12 @@
+.map-container {
+    width: 20dvw;
+    height: 30dvh;
+}
+
+.mapContainerWrapper{
+    position:relative !important;
+  }
+
+  .mapContainerWrapper div:first-child{
+    position:relative ;
+  }

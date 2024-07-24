@@ -9,6 +9,8 @@
     width: 60dvw;
     text-align: center;
     margin: 3rem 0rem;
+    font-size: 48px;
+    color: var(--primary);
 }
 
 .preview-gallery-container {

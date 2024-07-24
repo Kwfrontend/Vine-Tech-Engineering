@@ -1,0 +1,19 @@
+.gallery-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.gallery-section-headline {
+    width: 60dvw;
+    border-bottom: 2px solid var(--secondary);
+    padding: 20px 20px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.gallery-section-subheadline {
+    width: 60dvw;
+    font-size: 18px;
+}

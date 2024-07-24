@@ -3,7 +3,7 @@
 .contact-form-container {
     background-color: var(--primary);
     height: 600px;
-    width: 30dvw;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -36,9 +36,10 @@
   }
   
   .btn--secondary {
-    background-color: var(--btn__secondary);
-    color:#fff;
-    border: 3px solid var(--btn__primary);
+    background-color: var(--btn__primary);
+    color:var(--btn__primary);
+    border: 2px solid var(--btn__secondary);
+    color: var(--btn__secondary);
   }
   
   
@@ -54,7 +55,7 @@
     background-color: var(--btn__primary);
     color: #fff;
     border: 1px solid var(--btn__primary);
-    box-shadow: #BABABA 4px 4px 0 0,#BABABA 4px 4px 0 1px;
+    box-shadow: var(--btn__secondary) 4px 4px 0 0,#f2f2f2 4px 4px 0 1px;
     box-sizing: border-box;
   }
   
@@ -77,16 +78,16 @@
   }
   
   .btn--secondary:hover {
-    background: var(--btn__primary);
-    color: #fff;
+    background: var(--btn__secondary);
+    color: var(--btn__primary);
     transition: all 0.3s ease-out;
   }
   
   .btn--shadow:hover {
     background-color: var(--btn__secondary) ;
-    color: white;
+    color: var(--btn__primary);
     transition: all 0.3s ease-out;
-    border: 2px solid var(--btn__primary);
+    border: 1px solid var(--btn__primary);
     font-weight: 400;
   }
   

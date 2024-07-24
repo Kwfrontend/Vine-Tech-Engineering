@@ -1,0 +1,56 @@
+.contact-page-headline {
+    width: 60dvw;
+    border-bottom: 2px solid var(--secondary);
+    text-align: center;
+    margin-left: 20dvw;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.contact-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100dvw;
+    margin: 100px 0px;
+}
+
+.contact-page-text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50dvw;
+}
+
+.contact-page-text-headline {
+    width: 30dvw;
+    font-size: 36px;
+}
+
+.contact-page-text-subheadline {
+    width: 30dvw;
+    font-size: 20px;
+}
+
+.contact-page-text-list-container{
+    width: 30dvw;
+    margin-top: 50px;
+}
+
+.contact-page-text-list-headline{
+    font-weight: bold;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.contact-page-text-list-subheadline{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contact-page-form-container {
+    width: 40dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
