@@ -11,7 +11,7 @@ const ContactPage = () => {
   return (
     <>
     
-        <PageHero img={1} alt='contact us'>Contact Us</PageHero>
+        <PageHero img={2} alt='contact us'>Contact Us</PageHero>
         {/* <h1 className="contact-page-headline">Send us a email</h1>
         <div className="contact-page-container">
           <div className="contact-page-text-container">

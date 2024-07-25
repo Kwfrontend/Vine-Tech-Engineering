@@ -9,7 +9,7 @@ import React from 'react'
 const GalleryPage = () => {
   return (
     <>
-      <PageHero img={1}>Gallery</PageHero>
+      <PageHero img={3}>Gallery</PageHero>
       <GallerySection/>
       <Footer />
     </>

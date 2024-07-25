@@ -1,11 +1,11 @@
 import img1 from "../assets/preview images/preview-1.jpeg"
-import img2 from "../assets/preview images/preview-1.jpeg"
-import img3 from "../assets/preview images/preview-1.jpeg"
-import img4 from "../assets/preview images/preview-1.jpeg"
-import img5 from "../assets/preview images/preview-1.jpeg"
-import img6 from "../assets/preview images/preview-1.jpeg"
-import img7 from "../assets/preview images/preview-1.jpeg"
-import img8 from "../assets/preview images/preview-1.jpeg"
+import img2 from "../assets/preview images/preview-2.jpeg"
+import img3 from "../assets/preview images/preview-3.jpg"
+import img4 from "../assets/preview images/preview-4.jpeg"
+import img5 from "../assets/preview images/preview-5.jpg"
+import img6 from "../assets/preview images/preview-6.jpeg"
+import img7 from "../assets/preview images/preview-7.jpeg"
+import img8 from "../assets/preview images/preview-8.jpg"
 
 
 export const Imgs = [

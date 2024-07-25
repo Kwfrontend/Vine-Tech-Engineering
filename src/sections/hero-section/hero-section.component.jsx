@@ -3,14 +3,14 @@ import React from 'react'
 import "./hero-section.styles.css";
 import ImageCarousel from '../../components/Image Carousel/image-carousel.component';
 
-import slides from "../../data/carouselData.json";
+import {slides} from "../../data/carouselData";
 
 const HeroSection = () => {
   return (
     <>
       <section id='hero'>
         <div className='hero-section-container'>
-          <ImageCarousel data={slides}/>
+          <ImageCarousel slides={slides}/>
         </div>
       </section>
     </>
