@@ -28,7 +28,9 @@
         justify-content: center;
         align-items: center;
         .logo{
-            width: 15dvw;
+            padding-left: 20px;
+            width: 200px;
+            height: 200px;
         }
         .footer-list-container{
             height: 240px;

@@ -24,7 +24,7 @@ const Footer = () => {
           <ul className="footer-list-container">
             <span>Contact Us</span>
             <li>call us: +27 21 887 3320</li>
-            <li>kyanwyss@gmil.com</li>
+            <li>vinetech@adept.co.za</li>
             <li>5 Linton Street, Unit 4, Plankenpark, Stellenbosch, 7600</li>
           </ul>
           <div className="footer-map-container">

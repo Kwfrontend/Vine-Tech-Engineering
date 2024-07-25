@@ -49,3 +49,20 @@
     }
     
 }
+
+@media only screen and (max-width: 1024px ) {
+    .page-hero {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .page-hero {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 425px ) {
+    .page-hero {
+        height: 300px;
+    }
+}

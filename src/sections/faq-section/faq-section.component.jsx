@@ -17,29 +17,29 @@ const FaqSection = () => {
 
 const data1 = [
     {
-        question: 'Do you offer financing for your Projects?',
+        question: 'Do you offer custom sizes and shapes?',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
     {
-        question: 'What types of contaminants does the system remove?',
+        question: 'What finishes do you offer?',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
     {
-        question: 'How often do the filters need to be replaced?',
+        question: 'What grades of stainless steel do you offer?',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
 ]
 const data2 = [
     {
-        question: 'Do you serve both homes and businesses?',
+        question: 'What are the benefits of using stainless steel over other materials?',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
     {
-        question: 'What makes your systems different from competitors?  ',
+        question: 'What makes your service different from competitors?  ',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
     {
-        question: 'What is the maintenance required for a system?',
+        question: 'What types of stainless steel are best for wine and food production?',
         anwser: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, suscipit alias molestiae dolorem adipisci autem sint obcaecati perspiciatis magnam accusamus!'
     },
 ]

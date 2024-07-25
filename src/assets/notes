@@ -4,3 +4,4 @@
 -name at url
 -footer xs screen responsive
 -background-color footer prop
+-page hero height change on device size
