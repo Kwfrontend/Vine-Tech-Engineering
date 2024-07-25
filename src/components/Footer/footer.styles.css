@@ -84,6 +84,12 @@
         .btn :hover {
             background: var(--primary);
         }
+        .footer-bottom-btn-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80dvw;
+        }
     }
 }
 
@@ -94,6 +100,9 @@
        }
        .footer-bottom-container {
             width: 100dvw;
+            .footer-bottom-btn-container{
+                width: 100dvw;
+            }
        }
     }
 }
@@ -151,6 +160,22 @@
             .footer-list-container{
                 li {
                     font-size: 14px;
+                }
+            }
+        }
+     }
+}
+
+@media only screen and (max-width: 425px ) {
+    .footer-container {
+        .footer-top-container{
+            .footer-list-container{
+                span{ 
+                    font-size: 22px;
+                }
+                li {
+                    font-size: 16px;
+                    width: 20dvw;
                 }
             }
         }

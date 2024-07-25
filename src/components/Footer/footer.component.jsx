@@ -33,7 +33,9 @@ const Footer = () => {
         </div>
         <div className="footer-bottom-container">
           <div className='footer-bottom-text'><span> VINE TECH  ENGINEERING </span>| Made by Elevate Online</div>
-          <Button href='#hero' className='btn' buttonSize='btn--large' >Back To Top</Button>
+          <div className="footer-bottom-btn-container">
+            <Button href='#hero' className='btn' buttonSize='btn--large' >Back To Top</Button>
+          </div>
         </div>
       </div>
     </div>

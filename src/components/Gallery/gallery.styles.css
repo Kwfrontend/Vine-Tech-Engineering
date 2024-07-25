@@ -22,7 +22,7 @@
     filter:opacity(.2)
 }
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
     .gallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;

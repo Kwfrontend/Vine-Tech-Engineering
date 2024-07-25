@@ -63,8 +63,13 @@
 }
 
 @media only screen and (max-width: 425px ) {
+    .contact-form-section-container{
+        background-color: var(--primary);
+    }
+    .contact-form-section-headline {
+        color: #fff;
+    }
     .form-container {
         margin: 2rem 0rem 0rem 0rem;
-       
     }
 }

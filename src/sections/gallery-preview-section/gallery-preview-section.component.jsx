@@ -14,7 +14,7 @@ const GalleryPreviewSection = () => {
           <PreviewGallery  Imgs={Imgs} />
         </div>
         <div className="preview-gallery-cta">
-          <Button buttonStyle="btn--outline" buttonSize="btn--large" href='gallery'><span className="bold">View Gallery <MdArrowForwardIos className="right-arrow-icon" /></span></Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large" href='/gallery'><span className="bold">View Gallery <MdArrowForwardIos className="right-arrow-icon" /></span></Button>
         </div>
     </div>
   )
