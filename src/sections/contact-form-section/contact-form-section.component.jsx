@@ -8,7 +8,7 @@ const ContactFormSection = () => {
     <section id="contact">
       <>
       <div className='contact-form-section-container'>
-        <h1 className="contact-form-section-headline">Contact Us</h1>
+        <h1 className="contact-form-section-headline">Send us a email</h1>
         <div className="form-container">
           <div className="form-side-text-container">
             <ContactImg className="form-side-img"/>

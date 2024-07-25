@@ -11,7 +11,6 @@ const PreviewGallery = (props) => {
     {Imgs.map((item , idx)=> {
       return (
         <div className="img-container">
-          <span className='title'>{item.title}</span>
           <img 
             src={item.imgSrc} 
             alt={item.alt} 

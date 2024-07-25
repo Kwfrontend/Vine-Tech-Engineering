@@ -1,6 +1,7 @@
 import ContactForm from "../../components/Contact Form/contact-form.component";
 import Footer from "../../components/Footer/footer.component";
 import PageHero from "../../components/Page Hero/page-hero.component";
+import ContactFormSection from "../../sections/contact-form-section/contact-form-section.component";
 import "./contact-page.styles.css";
 
 
@@ -11,7 +12,7 @@ const ContactPage = () => {
     <>
     
         <PageHero img={1} alt='contact us'>Contact Us</PageHero>
-        <h1 className="contact-page-headline">Send us a email</h1>
+        {/* <h1 className="contact-page-headline">Send us a email</h1>
         <div className="contact-page-container">
           <div className="contact-page-text-container">
               <h1 className="contact-page-text-headline">Book a meeting</h1>
@@ -40,7 +41,8 @@ const ContactPage = () => {
           <div className="contact-page-form-container">
             <ContactForm/>
           </div>
-        </div>
+        </div> */}
+        <ContactFormSection/>
         <Footer/>
     </>
   )

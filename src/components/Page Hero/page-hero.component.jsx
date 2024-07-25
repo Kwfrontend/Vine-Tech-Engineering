@@ -18,7 +18,7 @@ const PageHero = (props) => {
         <div className="page-hero-cover">
           <div className="page-hero">
             {
-              img === 1 ? <Img1/> : img === 2 ? <Img2/> : img === 4 ? <Img3/> : ''
+              img === 1 ? <Img1 className="page-hero-img"/> : img === 2 ? <Img2/> : img === 4 ? <Img3/> : ''
             }
           </div>
             <h1 className="page-hero-title">{children}</h1>

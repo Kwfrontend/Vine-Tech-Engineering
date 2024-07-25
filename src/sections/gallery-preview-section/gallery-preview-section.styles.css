@@ -23,3 +23,16 @@
     height: 17px;
     width: 17px;
 }
+
+@media only screen and (max-width: 1024px ) {
+    .gallery-preview-healine {
+        width: 80dvw;
+    }
+}
+
+
+@media only screen and (max-width: 768px ) {
+    .gallery-preview-healine {
+        width: 90dvw;
+    }
+}

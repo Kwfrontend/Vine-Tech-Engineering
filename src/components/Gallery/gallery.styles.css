@@ -18,8 +18,8 @@
 
 }
 
-.galleryt\ .pics:hover {
-    filter:opacity(.8)
+.galleryt .pics:hover {
+    filter:opacity(.2)
 }
 
 @media (max-width: 991px) {

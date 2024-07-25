@@ -54,3 +54,17 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 1024px ) {
+    .contact-form-section-headline {
+        width: 90dvw;
+
+    }
+}
+
+@media only screen and (max-width: 425px ) {
+    .form-container {
+        margin: 2rem 0rem 0rem 0rem;
+       
+    }
+}

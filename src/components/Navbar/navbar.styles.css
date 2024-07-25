@@ -84,7 +84,25 @@
 }
 
 @media only screen and (max-width: 1024px ) {
+    .nav-link {
+        margin: 0 0rem;
+        font-size: 14px;
+    }
+    .logo-container{
+        height: 80px;
+        width: 100px;
+        left: 10dvw;
+    }
     
+    .logo-container a:first-child {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .logo {
+        width: 100px;
+        height: 80px;
+    }
 }
 
 
@@ -92,20 +110,27 @@
 
 
 @media only screen and (max-width: 768px ) {
+    .nav-link {
+        margin: 0 1rem;
+        width: 200px;
+    }
+    .nav-link.active-link {
+        color: var(--primary);
+        border-bottom: 3px solid var(--primary);
+    }
     .nav-btn {
         visibility: visible;
         opacity: 1;
         color: var(--primary);
         margin-right: 5rem;
-    }
-    .nav-container {
-        position: fixed;
+        position: absolute;
+        right: 1rem;
     }
     .navbar {
             position: fixed;
-            top: -300vh;
+            top: -100vh;
             left: 0;
-            height: 100%;
+            height: 100dvh;
             width: 100dvw;
             display: flex;
             flex-direction: column;
@@ -117,7 +142,7 @@
             z-index: 1000;
     }
     .responsive_nav {
-        transform: translateY(300vh);
+        transform: translateY(100vh);
         .icon {
             visibility: hidden;
         }
@@ -137,8 +162,8 @@
 
 @media only screen and (max-width: 645px ) {
     .logo {
-        width: 150px;
-        height: 90px;
+        width: 100px;
+        height: 80px;
         margin: 0rem 0rem;
         top: 2rem;
     }
