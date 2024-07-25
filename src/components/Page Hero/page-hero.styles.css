@@ -40,9 +40,17 @@
     font-weight: 300;
 }
 
+@media only screen and (max-width: 1440px ) {
+    .page-hero{
+        height: 600px;
+    }
+}
 @media only screen and (max-width: 768px ) {
     .page-hero{
         width: 100%;
+        .page-hero {
+            height: 500px;
+        }
     }
     .page-hero-title {
         font-size: 40px;
@@ -51,9 +59,6 @@
 }
 
 @media only screen and (max-width: 1024px ) {
-    .page-hero {
-        height: 500px;
-    }
 }
 
 @media only screen and (max-width: 768px ) {

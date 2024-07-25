@@ -15,7 +15,7 @@ const HomePage = () => {
       <HeroSection/>
       <InfoSection/>
       <GalleryPreviewSection/>
-      <FaqSection />
+      {/* <FaqSection /> */}
       <ContactFormSection/>
       <Footer/>
     </>
