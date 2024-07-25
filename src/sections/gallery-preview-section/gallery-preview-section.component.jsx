@@ -3,6 +3,8 @@ import "./gallery-preview-section.styles.css";
 import {Imgs} from '../../data/gallery-preview-Images';
 import Button from "../../components/Button/button.component";
 
+import {Link } from 'react-router-dom';
+
 import { MdArrowForwardIos } from "react-icons/md";
 import PreviewGallery from "../../components/PreviewGallery/previewgallery.component";
 
@@ -14,7 +16,9 @@ const GalleryPreviewSection = () => {
           <PreviewGallery  Imgs={Imgs} />
         </div>
         <div className="preview-gallery-cta">
-          <Button buttonStyle="btn--outline" buttonSize="btn--large" href='/gallery'><span className="bold">View Gallery <MdArrowForwardIos className="right-arrow-icon" /></span></Button>
+          <Link to='gallery'>
+            <Button buttonStyle="btn--outline" buttonSize="btn--large" href='/gallery'><span className="bold">View Gallery <MdArrowForwardIos className="right-arrow-icon" /></span></Button>
+          </Link>
         </div>
     </div>
   )

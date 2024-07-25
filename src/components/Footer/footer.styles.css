@@ -180,6 +180,13 @@
             }
         }
      }
+     .footer-bottom-container {
+        .footer-bottom-text {
+            font-size: 12px;
+            span{
+                color: var(--secondary);
+                font-size: 12px;
+            }
+        }
+    }
 }
-
-
