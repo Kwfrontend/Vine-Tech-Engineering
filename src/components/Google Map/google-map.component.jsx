@@ -12,15 +12,15 @@ export class GoogleMap extends Component {
       google = {this.props.google}
       style = {{width:'300px', height: '275px'}}
       className='mapContainerWrapper'
-      zoom= {14}
+      zoom= {13}
       initialCenter = {
           {
-              lat:-34.109600,
-              lng: 18.837830
+              lat:-33.9302,
+              lng: 18.8449
           }
       }
       >
-      <Marker className="mapContainerMarker" position={{ lat: -34.109600, lng: 18.837830}} />
+      <Marker className="mapContainerMarker" position={{ lat: -33.9302, lng: 18.8449}} />
       </Map>
     </div>
   )
