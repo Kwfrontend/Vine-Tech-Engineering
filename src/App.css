@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cardo;
+    font-family: Cardo , sans-serif, Georgia, 'Times New Roman', Times, serif;
     height: 100%;
     li {
         list-style: none;

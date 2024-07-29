@@ -1,7 +1,4 @@
 -backup fonts
--img carousel design
--logo at url
--name at url
--footer xs screen responsive
--page hero height change on device size
 -logo white pixels
+-react-helmet
+-320px devices
