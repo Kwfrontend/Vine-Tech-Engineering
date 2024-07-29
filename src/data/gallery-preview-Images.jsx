@@ -5,7 +5,7 @@ import img4 from "../assets/preview images/preview-4.jpeg"
 import img5 from "../assets/preview images/preview-5.jpg"
 import img6 from "../assets/preview images/preview-6.jpeg"
 import img7 from "../assets/preview images/preview-7.jpeg"
-import img8 from "../assets/preview images/preview-8.jpg"
+import img8 from "../assets/preview images/preview-9.jpeg"
 
 
 export const Imgs = [
