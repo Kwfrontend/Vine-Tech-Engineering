@@ -20,12 +20,12 @@ import Img14 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.50 (4
 import Img15 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.50.jpeg';
 import Img16 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51 (10).jpeg';
 import Img17 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51 (4).jpeg';
-import Img18 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51 (6).jpeg';
+import Img18 from '../../assets/gallery/18.jpg';
 import Img19 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51 (8).jpeg';
 import Img20 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51.jpeg';
 import Img21 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.52 (2).jpeg';
 import Img22 from '../../assets/gallery/WhatsApp Image 2024-07-09 at 11.09.53.jpeg';
-import Img23 from '../../assets/gallery/WhatsApp Image 2024-07-09 at 11.31.25.jpeg';
+import Img23 from '../../assets/gallery/23.jpg';
 
 
 

@@ -32,7 +32,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom-container">
-          <div className='footer-bottom-text'><span> VINE TECH  ENGINEERING </span>| Made by <a  href='http://elevate-online.co.za/'>Elevate Online</a></div>
+          <div className='footer-bottom-text'>
+            <span> VINE TECH  ENGINEERING </span>|
+            <a href='https://www.privacypolicies.com/live/3ec43d37-46cd-4bbb-a5d4-77f8615a115b'> Privacy Policy</a> | Made by 
+            <a  href='http://elevate-online.co.za/'>Elevate Online</a>
+          </div>
           <div className="footer-bottom-btn-container">
             <Button href='#hero' className='btn' buttonSize='btn--large' >Back To Top</Button>
           </div>
