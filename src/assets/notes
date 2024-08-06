@@ -1,4 +1,3 @@
--backup fonts
--logo white pixels
 -react-helmet
--320px devices
+-vh set to 0 on navlink click
+-
