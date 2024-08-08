@@ -12,13 +12,13 @@ const ContactFormSection = () => {
         <div className="form-container">
           <div className="form-side-text-container">
             <ContactImg className="form-side-img"/>
-            <span className="form-side-text">
+            <p className="form-side-text">
             Should you have any queries regarding our products or services, please feel free to contact us at your leisure by telephone (021) 887 3320 or Mark Lotter 083 289 1170.
             <br/><br/>Rest assured that all our work is guaranteed to meet your highest expectations.
             <br/><br/>We look forward of being service and assistance to you! Assuring you of our best service at all times.
             <br/><br/>Regards
             <br/><br/>Mark Lotter: DIRECTOR
-            </span>
+            </p>
           </div>
           <ContactForm className="form"/>  
         </div>

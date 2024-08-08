@@ -10,7 +10,7 @@ const AboutPage = () => {
         <PageHero img={1}>About Us</PageHero>
         <div className="about-page-text-container">
           <h1 className="about-page-text-headline">Introduction</h1>
-          <div className="about-page-text">
+          <p className="about-page-text">
             <span className="about-page-text-1">
               VINE TECH ENGINEERING CC was established in 1997 with the main objective to deliver General Stainless Steel engineering and maintenance to the food and wine industry in the Boland and surrounding areas.
             </span><br/>
@@ -22,7 +22,7 @@ const AboutPage = () => {
             </span><br/>
             <span className="about-page-text-4">Regards</span>
             <h4>Mark Lotter <br/>DIRECTOR</h4>
-          </div>
+          </p>
         </div>
         <Footer />
     </>

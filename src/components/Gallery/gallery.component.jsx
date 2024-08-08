@@ -26,6 +26,16 @@ import Img20 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.51.jp
 import Img21 from '../../assets/gallery/WhatsApp Image 2024-06-06 at 17.43.52 (2).jpeg';
 import Img22 from '../../assets/gallery/WhatsApp Image 2024-07-09 at 11.09.53.jpeg';
 import Img23 from '../../assets/gallery/23.jpg';
+import Img24 from '../../assets/gallery/080824img1.jpg';
+import Img25 from '../../assets/gallery/080824Gimg2.jpg';
+import Img26 from '../../assets/gallery/080824Gimg3.jpg';
+import Img27 from '../../assets/gallery/080824Gimg7.jpg';
+import Img28 from '../../assets/gallery/080824Gimg5.jpg';
+import Img29 from '../../assets/gallery/080824Gimg6.jpg';
+import Img30 from '../../assets/gallery/080824Gimg8.jpg';
+import Img31 from '../../assets/gallery/080824Gimg9.jpg';
+import Img32 from '../../assets/gallery/080824Gimg10.jpg';
+import Img33 from '../../assets/gallery/080824Gimg11.jpg';
 
 
 
@@ -123,6 +133,46 @@ const Gallery = () => {
         {
             id:23,
             imgSrc: Img23,
+        },
+        {
+            id:24,
+            imgSrc: Img24,
+        },
+        {
+            id:25,
+            imgSrc: Img25,
+        },
+        {
+            id:26,
+            imgSrc: Img26,
+        },
+        {
+            id:27,
+            imgSrc: Img27,
+        },
+        {
+            id:28,
+            imgSrc: Img28,
+        },
+        {
+            id:29,
+            imgSrc: Img29,
+        },
+        {
+            id:30,
+            imgSrc: Img30,
+        },
+        {
+            id:31,
+            imgSrc: Img31,
+        },
+        {
+            id:32,
+            imgSrc: Img32,
+        },
+        {
+            id:33,
+            imgSrc: Img33,
         },
         
     ]

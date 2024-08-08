@@ -9,9 +9,11 @@ const InfoSection = () => {
     <div className="info-section-container">
       <h1 className="info-section-headline">Vine Tech Engineering</h1>
       <div className="info-container">
-        <span className="bold info-headline">VINE TECH ENGINEERING CC: Pioneering Stainless Steel Solutions for the Food and Wine Industry</span><br/>
-        <span className='info'>Delivering Exceptional Service and Custom Fittings Since 1997, Proudly Serving the Boland and Surrounding Areas with Comprehensive Engineering Services, Including Pipe Installations, Mash Coolers, Tank Mixers, and More. Our Commitment to Quality and Customer Satisfaction Ensures Every Project Meets Your Highest Expectations</span><br/>
-        <span className='underlined bold list-headline'>Other services and products provided by us include the following:</span>
+        <h2 className="bold info-headline">VINE TECH ENGINEERING CC: Pioneering Stainless Steel Solutions for the Food and Wine Industry</h2><br/>
+        <p className='info'>
+          Delivering Exceptional Service and Custom Fittings Since 1997, Proudly Serving the Boland and Surrounding Areas with Comprehensive Engineering Services, Including Pipe Installations, Mash Coolers, Tank Mixers, and More. Our Commitment to Quality and Customer Satisfaction Ensures Every Project Meets Your Highest Expectations
+        </p><br/>
+        <h2 className='underlined bold list-headline'>Other services and products provided by us include the following:</h2>
         <ul className='info-list-container'>
           <li>1. Pipe Installations – Stainless Steel & PVC</li>
           <li>2. Mash Coolers</li>

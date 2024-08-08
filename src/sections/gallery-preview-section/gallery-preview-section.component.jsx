@@ -14,7 +14,7 @@ const GalleryPreviewSection = () => {
   }
   return (
     <div className="gallery-preview-section">
-        <h1 className="gallery-preview-healine bold">Our high quality work </h1>
+        <h2 className="gallery-preview-healine bold">Our high quality work </h2>
         <div className="preview-gallery-container">
           <PreviewGallery  Imgs={Imgs} />
         </div>

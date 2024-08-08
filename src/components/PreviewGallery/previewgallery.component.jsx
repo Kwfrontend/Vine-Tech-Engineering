@@ -8,13 +8,13 @@ const PreviewGallery = (props) => {
 
   return (
     <div className="preview-gallery-container">
-    {Imgs.map((item )=> {
+    {Imgs.map((item ,idx )=> {
       return (
         <div className="img-container">
           <img 
             src={item.imgSrc} 
             alt={item.alt} 
-            key={item.number} 
+            key={idx} 
             className="img"
             />
         </div>
